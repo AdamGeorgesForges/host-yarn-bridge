@@ -214,7 +214,7 @@ def render_curve_md(arms: dict, fixture_problems: list[str], probe_logs: list[st
         "",
         f"- Seat: `{SEAT_MODEL}` @ `{SEAT_BASE}`",
         f"- max_model_len: {MAX_MODEL_LEN}",
-        f"- Generated: {time.strftime('%Y-%m-%dT%H:%M:%S%z')}",
+        "- Generated: (host-local-yarn bridge run; see workflow logs)",
         "- Method: score durable longctx harness JSONL (exact choice match vs `_expected`; 5-bin ECE on confidence/max-prob)",
         "",
         "## Curve (needle — final3 preferred)",
